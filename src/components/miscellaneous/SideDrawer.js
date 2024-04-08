@@ -95,8 +95,8 @@ function SideDrawer() {
             </Text>
           </Button>
         </Tooltip>
-        <Text fontSize="2xl" fontFamily="Work sans">
-          Chatify
+        <Text fontSize="3xl" fontWeight="bold" color={"blue"}>
+          Connectify
         </Text>
         <div>
           <Menu>
