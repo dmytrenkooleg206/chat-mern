@@ -22,7 +22,7 @@ function App() {
             justifyContent={"center"}
             alignItems={"center"}
           >
-            <div class="dots"></div>
+            <div className="dots"></div>
           </Box>
         }
       >
