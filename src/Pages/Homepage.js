@@ -8,10 +8,10 @@ import {
   Tabs,
   Text,
 } from "@chakra-ui/react";
-import { useEffect } from "react";
+import { useEffect, lazy } from "react";
 import { useNavigate } from "react-router";
-import Login from "../components/Authentication/Login";
-import Signup from "../components/Authentication/Signup";
+const Login = lazy(() => import("../components/Authentication/Login"));
+const Signup = lazy(() => import("../components/Authentication/Signup"));
 
 function Homepage() {
   const navigate = useNavigate();

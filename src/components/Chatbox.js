@@ -1,7 +1,8 @@
+import { lazy } from "react";
 import { Box } from "@chakra-ui/layout";
 import "./styles.css";
-import SingleChat from "./SingleChat";
 import { ChatState } from "../Context/ChatProvider";
+const SingleChat = lazy(() => import("./SingleChat"));
 
 const Chatbox = ({ fetchAgain, setFetchAgain }) => {
   const { selectedChat } = ChatState();
