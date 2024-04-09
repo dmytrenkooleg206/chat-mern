@@ -1,7 +1,7 @@
 # Connectify - Real-Time Chat Application
-![image](https://github.com/ankitjangidx/Chatify/assets/100501722/103fb812-c71b-4744-9881-734cdce16370)
+
 ![image](https://github.com/ankitjangidx/Chatify/assets/100501722/f272936d-18b8-4c74-8584-18bb5227ca49)
-![image](https://github.com/ankitjangidx/Chatify/assets/100501722/aa5103ed-ca77-4113-ac8c-21f027e12e29)
+
 
 
 
@@ -11,10 +11,37 @@
 Connectify is a cutting-edge real-time chat application designed to revolutionize communication among users. With its modern interface and robust features, Connectify offers a seamless and immersive chat experience like never before. Built on the powerful MERN (MongoDB, Express.js, React.js, Node.js) stack and integrated with WebSocket technology, Connectify brings instant messaging to the next level.
 
 Connectify aims to redefine communication by providing:
-- **Real-Time Messaging:** Say goodbye to delays with Connectify's WebSocket integration, enabling lightning-fast message delivery and updates.
-- **Intuitive User Interface:** Navigate effortlessly through Connectify's sleek and user-friendly interface, designed for maximum convenience and engagement.
-- **Secure Authentication:** Rest assured knowing your data is safe with Connectify's secure JWT-based authentication system, ensuring only authorized users access the platform.
-- **Scalable Architecture:** Built on a scalable architecture, Connectify can effortlessly handle growing user bases without compromising performance.
+
+markdown
+Copy code
+## Features
+
+### User Authentication
+- Users can register and log in securely to access the chat features.
+
+### Real-time Messaging
+- Messages are delivered instantly, allowing for fast and efficient communication.
+
+### One-on-One Chats
+- Users can engage in private conversations with other users.
+
+### Group Chats
+- Users can create and participate in group chats with multiple members.
+- Groups can be created by searching for users and selecting them to add to the group.
+
+### Typing Indicators
+- Provides visual cues when a user is typing a message.
+
+### Message History
+- Chat history is stored and accessible for users to view previous conversations.
+
+### Notification Bell
+- Displays notifications for unread messages.
+- Shows the number of unread messages.
+- Clicking on the notification opens the chat with the sender.
+
+### Group Management
+- Users can rename, remove, add, or delete groups.
 
 
 ## Front End
@@ -129,3 +156,5 @@ Connectify has a roadmap for future enhancements, including:
 - Adding multimedia support for sharing images, videos, and files.
 - Enhancing user experience with additional features such as emojis, reactions, and chatbots.
 - Improving scalability and performance through optimized database queries and caching mechanisms.
+- Dark Mode: Introduce a dark mode option for improved visibility and user experience.
+- Voice Messaging: Add support for sending voice messages in chat conversations.
