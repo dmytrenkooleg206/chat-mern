@@ -12,10 +12,6 @@ Connectify is a cutting-edge real-time chat application designed to revolutioniz
 
 Connectify aims to redefine communication by providing:
 
-markdown
-Copy code
-## Features
-
 ### User Authentication
 - Users can register and log in securely to access the chat features.
 
